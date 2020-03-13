@@ -29,9 +29,17 @@ Find the top most popular jar file (artifact) in a maven repository.
 }
 ```
 
- -  Service have optional environment variable to customize the jfron repository
+## Environment variables to customize the service 
     - END_POINT  -- define the jfrog server info, e.g. http://<servername>/artifactory/api
     - JFROG_REPO -- jfrog repository name e.g. jcenter-cache
     - JFROG_SEARCH -- jfrog search api end point e.g. /search/aql
     - USERNAME -- jfrog user name, its configure for basic authentication
     - PASSWORD -- jfrog password, its configure for basic authentication
+
+
+## Running using Docker
+    - download the code 
+        git clone 
+    - docker build -t jfrog-app .
+    - docker run -p 8080:8080 -d jfrog-app:latest
+       - optionally, you can run using above variable for other settings.    
