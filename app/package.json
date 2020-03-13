@@ -27,7 +27,7 @@
     "eslint": "~2.11.1",
     "istanbul": "0.4.4",
     "mocha": "~2.1.0",
-    "moment": "~2.17.1",
+    "moment": "~2.19.3",
     "should": "2.1.1",
     "sinon": "~1.17.2",
     "sinon-as-promised": "~4.0.2",
