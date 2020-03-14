@@ -1,0 +1,7 @@
+{
+    "targetRepo" : "TARGETREPO",
+    "dockerRepository" : "artifact-report",
+    "tag" : "@",
+    "targetTag" : "latest",
+    "copy": true
+  }
